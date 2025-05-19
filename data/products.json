@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Perfume Elegance Rose",
+    "category": "Perfumes",
+    "family": "Floral",
+    "price": 49.9,
+    "image": "/images/perfume1.jpg",
+    "highlight": true
+  },
+  {
+    "id": 2,
+    "name": "Creme Hidratante Marsala Touch",
+    "category": "Cuidados com a Pele",
+    "family": "Hidratantes",
+    "price": 29.9,
+    "image": "/images/creme1.jpg",
+    "highlight": false
+  },
+  {
+    "id": 3,
+    "name": "Shampoo Prime Shine",
+    "category": "Cabelos",
+    "family": "Shampoo",
+    "price": 19.9,
+    "image": "/images/shampoo1.jpg",
+    "highlight": true
+  }
+]
