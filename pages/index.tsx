@@ -1,9 +1,16 @@
 
-export default function HomePage() {
+import Link from 'next/link';
+
+export default function Home() {
   return (
-    <div className="p-10 text-center">
-      <h1 className="text-3xl font-bold text-pink-700">Bem-vindo à Divino Encanto</h1>
-      <p className="mt-4 text-gray-600">Explore nossos produtos de beleza e perfumaria incríveis!</p>
+    <div className="min-h-screen flex items-center justify-center flex-col p-8 text-center">
+      <h1 className="text-4xl font-bold mb-4 text-pink-700">Bem-vindo à Divino Encanto 💖</h1>
+      <p className="mb-6 text-gray-600">Explore nossos produtos de beleza e perfumaria!</p>
+      <Link href="/products">
+        <a className="px-6 py-3 bg-pink-600 text-white rounded-lg shadow hover:bg-pink-700 transition">
+          Ir para Produtos
+        </a>
+      </Link>
     </div>
   );
 }
